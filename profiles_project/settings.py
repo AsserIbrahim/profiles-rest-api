@@ -25,7 +25,10 @@ SECRET_KEY = 'aol@j@(v7+^4o5pva1e5&d=rr-ycb4=qnoj-q$jvk1hu8&bd2('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(int(os.environ.get('DEBUG', 1)))
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'ec2-13-42-76-182.eu-west-2.compute.amazonaws.com',
+    '127.0.0.1'
+]
 
 
 # Application definition
